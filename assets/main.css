@@ -1,0 +1,229 @@
+body.nav-open {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  body.nav-open {
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  body.nav-open .nav-toggler {
+    margin-right: 15px;
+  }
+}
+.nav-toggler {
+  z-index: 99;
+}
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: #29903b;
+  transition: all 0.2s;
+  z-index: 98;
+  display: flex;
+  overflow-y: auto;
+}
+.nav-menu.show {
+  left: 0;
+}
+.nav-menu ul {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.nav-menu ul li a {
+  display: block;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+.nav-menu ul li a:hover {
+  color: #121212;
+}
+@media (min-width: 768px) {
+  .nav-menu ul li a {
+    font-size: 5rem;
+  }
+}
+.midnightHeader.default,
+.midnightHeader.white {
+  background: transparent;
+}
+.midnightHeader.default .hamburger-inner,
+.midnightHeader.default .hamburger-inner::after,
+.midnightHeader.default .hamburger-inner::before {
+  background-color: #121212;
+}
+.midnightHeader.white .hamburger-inner,
+.midnightHeader.white .hamburger-inner::after,
+.midnightHeader.white .hamburger-inner::before {
+  background-color: white;
+}
+button.hamburger:focus {
+  outline: none;
+}
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-bottom: 31px solid #29903b;
+}
+header.masthead .link-social {
+  font-size: 2rem;
+  color: white;
+}
+header.masthead .link-social:active,
+header.masthead .link-social:focus,
+header.masthead .link-social:hover {
+  text-decoration: none;
+  color: #29903b;
+}
+@media (min-width: 992px) {
+  header.masthead .link-social {
+    font-size: 3rem;
+  }
+}
+main.post-list {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+main.post-list .post-list-item {
+  margin-bottom: 7rem;
+}
+main.post-list .post-list-item:last-child {
+  margin-bottom: 0;
+}
+main.post-list .post-list-item .post-list-link {
+  padding-bottom: 1rem;
+  display: block;
+  border-bottom: 5px solid transparent;
+}
+main.post-list .post-list-item .post-list-link h3 {
+  font-size: 2.5rem;
+  color: #121212;
+}
+main.post-list .post-list-item .post-list-link p {
+  color: #121212;
+}
+main.post-list .post-list-item .post-list-link:hover {
+  text-decoration: none;
+  border-bottom: 5px solid #f35f19;
+}
+main.post-list .post-list-item .post-list-link:hover h3 {
+  color: #29903b;
+}
+.post-section {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.post-section p:last-child {
+  margin-bottom: 0;
+}
+.post-img {
+  height: 50vh;
+  background-position: right;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .post-img {
+    height: 120vh;
+  }
+}
+.post-pagination .post-pagination-link {
+  font-weight: bold;
+  font-size: 1.25rem;
+  display: block;
+}
+.post-pagination .post-pagination-link:active,
+.post-pagination .post-pagination-link:focus,
+.post-pagination .post-pagination-link:hover {
+  color: #29903b;
+}
+.post-pagination .post-pagination-link .post-pagination-header {
+  display: block;
+  font-size: 0.8rem;
+  color: #121212;
+  border-bottom: 2px solid #121212;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.post-pagination .post-pagination-link:active .post-pagination-header,
+.post-pagination .post-pagination-link:focus .post-pagination-header,
+.post-pagination .post-pagination-link:hover .post-pagination-header {
+  color: #29903b;
+  border-bottom-color: #29903b;
+}
+body {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+p,
+ul {
+  font-size: 1.25rem;
+}
+p.lead {
+  font-size: 1.75rem;
+  font-weight: bold !important;
+}
+a {
+  color: #29903b;
+}
+a.active,
+a:active,
+a:focus,
+a:hover {
+  color: #ce4a0b;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+.text-primary {
+  color: #29903b !important;
+}
+.bg-primary {
+  background-color: #29903b !important;
+}
+.bg-dark {
+  background-color: #121212 !important;
+}
+.page-section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.page-bottom-link {
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: block;
+  color: white;
+  background-color: #29903b;
+}
+.page-bottom-link:active,
+.page-bottom-link:focus,
+.page-bottom-link:hover {
+  color: #121212;
+}
+::-moz-selection {
+  color: white;
+  background: #29903b;
+  text-shadow: none;
+}
+::selection {
+  color: white;
+  background: #29903b;
+  text-shadow: none;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  -webkit-tap-highlight-color: #29903b;
+}
